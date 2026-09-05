@@ -1,0 +1,24 @@
+balance="1"
+deposite="2"
+withdraw="3"
+n=input("choose the option")
+if n==balance:
+    print("check your balance")
+elif n==deposite:
+    print("enter money in words to deposite")
+elif n==withdraw:
+    print("enter money in words to withdraw")
+else:
+    print("thank you")
+
+
+        
+
+
+ 
+   
+    
+    
+
+    
+     
