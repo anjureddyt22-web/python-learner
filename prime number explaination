@@ -1,0 +1,19 @@
+#checking the number of prime numbers between the given two numbers
+##how its work
+-takes two numbers as input
+-checks the each number between them
+-conts its facter
+-if a number as exactly two factors it is  prinme
+-display the prime numbers and its count
+##example
+input:
+1
+10
+output:
+2
+3
+5
+7
+number of primes = 4
+## language
+python
