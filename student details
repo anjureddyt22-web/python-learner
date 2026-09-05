@@ -1,0 +1,20 @@
+
+
+def student_result(m1,m2,m3,m4,m5):
+    marks=[m1,m2,m3,m4,m5]
+    total=sum(marks)
+    avg=total/5
+    print("average=",avg)
+    print("higest=",max(marks))
+    print("lowest=",min(marks))
+    if avg>=40:
+        print("pass")
+    else:
+        print("fail")
+x=int(input("enetr 1st subject marks:"))
+y=int(input("enetr 2nd subject marks:"))
+z=int(input("enetr 3rd subject marks:"))
+a=int(input("enetr 4th subject marks:"))
+b=int(input("enetr 5th subject marks:"))
+student_result(x,y,z,a,b)
+         
